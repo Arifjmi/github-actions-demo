@@ -2,8 +2,8 @@ name: My first workflow
 on: push
 
 jobs:
-  first-job
-runs-on: ubuntu-latest
+  first-job:
+    runs-on: ubuntu-latest
 
 steps:
   - name: Print message
